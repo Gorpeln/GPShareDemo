@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11246FD522193E63004596F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11246FD422193E63004596F7 /* AppDelegate.m */; };
+		11246FD822193E63004596F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11246FD722193E63004596F7 /* ViewController.m */; };
+		11246FDB22193E63004596F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11246FD922193E63004596F7 /* Main.storyboard */; };
+		11246FDD22193E63004596F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11246FDC22193E63004596F7 /* Assets.xcassets */; };
+		11246FE022193E63004596F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11246FDE22193E63004596F7 /* LaunchScreen.storyboard */; };
+		11246FE322193E63004596F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11246FE222193E63004596F7 /* main.m */; };
+		11246FED22193E63004596F7 /* GPShareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11246FEC22193E63004596F7 /* GPShareTests.m */; };
+		11246FF822193E63004596F7 /* GPShareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11246FF722193E63004596F7 /* GPShareUITests.m */; };
+		11AB9C0E2219625600016531 /* share_sms@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C002219625500016531 /* share_sms@3x.png */; };
+		11AB9C0F2219625600016531 /* share_email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C012219625500016531 /* share_email@2x.png */; };
+		11AB9C102219625600016531 /* share_alipay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C022219625600016531 /* share_alipay@3x.png */; };
+		11AB9C112219625600016531 /* share_weixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C032219625600016531 /* share_weixin@2x.png */; };
+		11AB9C122219625600016531 /* share_qq@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C042219625600016531 /* share_qq@2x.png */; };
+		11AB9C132219625600016531 /* share_qq@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C052219625600016531 /* share_qq@3x.png */; };
+		11AB9C142219625600016531 /* share_email@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C062219625600016531 /* share_email@3x.png */; };
+		11AB9C152219625600016531 /* share_weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C072219625600016531 /* share_weixin.png */; };
+		11AB9C162219625600016531 /* share_safari@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C082219625600016531 /* share_safari@3x.png */; };
+		11AB9C172219625600016531 /* share_alipay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C092219625600016531 /* share_alipay@2x.png */; };
+		11AB9C182219625600016531 /* share_sina@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C0A2219625600016531 /* share_sina@2x.png */; };
+		11AB9C192219625600016531 /* share_sina@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C0B2219625600016531 /* share_sina@3x.png */; };
+		11AB9C1A2219625600016531 /* share_safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C0C2219625600016531 /* share_safari@2x.png */; };
+		11AB9C1B2219625600016531 /* share_sms@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C0D2219625600016531 /* share_sms@2x.png */; };
+		11AB9C1E221962A000016531 /* GPShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AB9C1D221962A000016531 /* GPShareItem.m */; };
+		11AB9C212219644A00016531 /* GPShareItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AB9C202219644A00016531 /* GPShareItemCell.m */; };
+		11AB9C242219655500016531 /* GPShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AB9C232219655500016531 /* GPShareView.m */; };
+		11AB9C492219695500016531 /* function_collection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C3D2219695400016531 /* function_collection@2x.png */; };
+		11AB9C4A2219695500016531 /* function_refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C3E2219695400016531 /* function_refresh@3x.png */; };
+		11AB9C4B2219695500016531 /* function_copy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C3F2219695400016531 /* function_copy@2x.png */; };
+		11AB9C4C2219695500016531 /* function_link@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C402219695400016531 /* function_link@3x.png */; };
+		11AB9C4D2219695500016531 /* function_expose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C412219695400016531 /* function_expose@2x.png */; };
+		11AB9C4E2219695500016531 /* function_copy@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C422219695400016531 /* function_copy@3x.png */; };
+		11AB9C4F2219695500016531 /* function_expose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C432219695400016531 /* function_expose@3x.png */; };
+		11AB9C502219695500016531 /* function_font@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C442219695400016531 /* function_font@3x.png */; };
+		11AB9C512219695500016531 /* function_collection@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C452219695500016531 /* function_collection@3x.png */; };
+		11AB9C522219695500016531 /* function_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C462219695500016531 /* function_refresh@2x.png */; };
+		11AB9C532219695500016531 /* function_link@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C472219695500016531 /* function_link@2x.png */; };
+		11AB9C542219695500016531 /* function_font@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11AB9C482219695500016531 /* function_font@2x.png */; };
+		74CE1FFA221BADCF00FCD589 /* share_moments@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE1FF8221BADCE00FCD589 /* share_moments@3x.png */; };
+		74CE1FFB221BADCF00FCD589 /* share_moments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74CE1FF9221BADCE00FCD589 /* share_moments@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11246FE922193E63004596F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11246FC822193E63004596F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11246FCF22193E63004596F7;
+			remoteInfo = GPShare;
+		};
+		11246FF422193E63004596F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11246FC822193E63004596F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11246FCF22193E63004596F7;
+			remoteInfo = GPShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11246FD022193E63004596F7 /* GPShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11246FD322193E63004596F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11246FD422193E63004596F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11246FD622193E63004596F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11246FD722193E63004596F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11246FDA22193E63004596F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11246FDC22193E63004596F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11246FDF22193E63004596F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11246FE122193E63004596F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11246FE222193E63004596F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11246FE822193E63004596F7 /* GPShareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPShareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11246FEC22193E63004596F7 /* GPShareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPShareTests.m; sourceTree = "<group>"; };
+		11246FEE22193E63004596F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11246FF322193E63004596F7 /* GPShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11246FF722193E63004596F7 /* GPShareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPShareUITests.m; sourceTree = "<group>"; };
+		11246FF922193E63004596F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11AB9C002219625500016531 /* share_sms@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_sms@3x.png"; sourceTree = "<group>"; };
+		11AB9C012219625500016531 /* share_email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_email@2x.png"; sourceTree = "<group>"; };
+		11AB9C022219625600016531 /* share_alipay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_alipay@3x.png"; sourceTree = "<group>"; };
+		11AB9C032219625600016531 /* share_weixin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_weixin@2x.png"; sourceTree = "<group>"; };
+		11AB9C042219625600016531 /* share_qq@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_qq@2x.png"; sourceTree = "<group>"; };
+		11AB9C052219625600016531 /* share_qq@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_qq@3x.png"; sourceTree = "<group>"; };
+		11AB9C062219625600016531 /* share_email@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_email@3x.png"; sourceTree = "<group>"; };
+		11AB9C072219625600016531 /* share_weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_weixin.png; sourceTree = "<group>"; };
+		11AB9C082219625600016531 /* share_safari@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_safari@3x.png"; sourceTree = "<group>"; };
+		11AB9C092219625600016531 /* share_alipay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_alipay@2x.png"; sourceTree = "<group>"; };
+		11AB9C0A2219625600016531 /* share_sina@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_sina@2x.png"; sourceTree = "<group>"; };
+		11AB9C0B2219625600016531 /* share_sina@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_sina@3x.png"; sourceTree = "<group>"; };
+		11AB9C0C2219625600016531 /* share_safari@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_safari@2x.png"; sourceTree = "<group>"; };
+		11AB9C0D2219625600016531 /* share_sms@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_sms@2x.png"; sourceTree = "<group>"; };
+		11AB9C1C221962A000016531 /* GPShareItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPShareItem.h; sourceTree = "<group>"; };
+		11AB9C1D221962A000016531 /* GPShareItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPShareItem.m; sourceTree = "<group>"; };
+		11AB9C1F2219644A00016531 /* GPShareItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPShareItemCell.h; sourceTree = "<group>"; };
+		11AB9C202219644A00016531 /* GPShareItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPShareItemCell.m; sourceTree = "<group>"; };
+		11AB9C222219655500016531 /* GPShareView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPShareView.h; sourceTree = "<group>"; };
+		11AB9C232219655500016531 /* GPShareView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPShareView.m; sourceTree = "<group>"; };
+		11AB9C3D2219695400016531 /* function_collection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_collection@2x.png"; sourceTree = "<group>"; };
+		11AB9C3E2219695400016531 /* function_refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_refresh@3x.png"; sourceTree = "<group>"; };
+		11AB9C3F2219695400016531 /* function_copy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_copy@2x.png"; sourceTree = "<group>"; };
+		11AB9C402219695400016531 /* function_link@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_link@3x.png"; sourceTree = "<group>"; };
+		11AB9C412219695400016531 /* function_expose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_expose@2x.png"; sourceTree = "<group>"; };
+		11AB9C422219695400016531 /* function_copy@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_copy@3x.png"; sourceTree = "<group>"; };
+		11AB9C432219695400016531 /* function_expose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_expose@3x.png"; sourceTree = "<group>"; };
+		11AB9C442219695400016531 /* function_font@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_font@3x.png"; sourceTree = "<group>"; };
+		11AB9C452219695500016531 /* function_collection@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_collection@3x.png"; sourceTree = "<group>"; };
+		11AB9C462219695500016531 /* function_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_refresh@2x.png"; sourceTree = "<group>"; };
+		11AB9C472219695500016531 /* function_link@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_link@2x.png"; sourceTree = "<group>"; };
+		11AB9C482219695500016531 /* function_font@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "function_font@2x.png"; sourceTree = "<group>"; };
+		74CE1FF8221BADCE00FCD589 /* share_moments@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_moments@3x.png"; sourceTree = "<group>"; };
+		74CE1FF9221BADCE00FCD589 /* share_moments@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_moments@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11246FCD22193E63004596F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11246FE522193E63004596F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11246FF022193E63004596F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11246FC722193E63004596F7 = {
+			isa = PBXGroup;
+			children = (
+				11246FD222193E63004596F7 /* GPShare */,
+				11246FEB22193E63004596F7 /* GPShareTests */,
+				11246FF622193E63004596F7 /* GPShareUITests */,
+				11246FD122193E63004596F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11246FD122193E63004596F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11246FD022193E63004596F7 /* GPShare.app */,
+				11246FE822193E63004596F7 /* GPShareTests.xctest */,
+				11246FF322193E63004596F7 /* GPShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11246FD222193E63004596F7 /* GPShare */ = {
+			isa = PBXGroup;
+			children = (
+				11246FD622193E63004596F7 /* ViewController.h */,
+				11246FD722193E63004596F7 /* ViewController.m */,
+				11247006221958AB004596F7 /* GPShare */,
+				11247005221953F9004596F7 /* Other */,
+			);
+			path = GPShare;
+			sourceTree = "<group>";
+		};
+		11246FEB22193E63004596F7 /* GPShareTests */ = {
+			isa = PBXGroup;
+			children = (
+				11246FEC22193E63004596F7 /* GPShareTests.m */,
+				11246FEE22193E63004596F7 /* Info.plist */,
+			);
+			path = GPShareTests;
+			sourceTree = "<group>";
+		};
+		11246FF622193E63004596F7 /* GPShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11246FF722193E63004596F7 /* GPShareUITests.m */,
+				11246FF922193E63004596F7 /* Info.plist */,
+			);
+			path = GPShareUITests;
+			sourceTree = "<group>";
+		};
+		11247005221953F9004596F7 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				11246FD322193E63004596F7 /* AppDelegate.h */,
+				11246FD422193E63004596F7 /* AppDelegate.m */,
+				11246FD922193E63004596F7 /* Main.storyboard */,
+				11246FDC22193E63004596F7 /* Assets.xcassets */,
+				11246FDE22193E63004596F7 /* LaunchScreen.storyboard */,
+				11246FE122193E63004596F7 /* Info.plist */,
+				11246FE222193E63004596F7 /* main.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		11247006221958AB004596F7 /* GPShare */ = {
+			isa = PBXGroup;
+			children = (
+				11AB9BFF22195D7F00016531 /* Images */,
+				11AB9C1C221962A000016531 /* GPShareItem.h */,
+				11AB9C1D221962A000016531 /* GPShareItem.m */,
+				11AB9C1F2219644A00016531 /* GPShareItemCell.h */,
+				11AB9C202219644A00016531 /* GPShareItemCell.m */,
+				11AB9C222219655500016531 /* GPShareView.h */,
+				11AB9C232219655500016531 /* GPShareView.m */,
+			);
+			path = GPShare;
+			sourceTree = "<group>";
+		};
+		11AB9BFF22195D7F00016531 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				11AB9C092219625600016531 /* share_alipay@2x.png */,
+				11AB9C022219625600016531 /* share_alipay@3x.png */,
+				11AB9C012219625500016531 /* share_email@2x.png */,
+				11AB9C062219625600016531 /* share_email@3x.png */,
+				11AB9C042219625600016531 /* share_qq@2x.png */,
+				11AB9C052219625600016531 /* share_qq@3x.png */,
+				11AB9C0C2219625600016531 /* share_safari@2x.png */,
+				11AB9C082219625600016531 /* share_safari@3x.png */,
+				11AB9C0A2219625600016531 /* share_sina@2x.png */,
+				11AB9C0B2219625600016531 /* share_sina@3x.png */,
+				11AB9C0D2219625600016531 /* share_sms@2x.png */,
+				11AB9C002219625500016531 /* share_sms@3x.png */,
+				74CE1FF9221BADCE00FCD589 /* share_moments@2x.png */,
+				74CE1FF8221BADCE00FCD589 /* share_moments@3x.png */,
+				11AB9C072219625600016531 /* share_weixin.png */,
+				11AB9C032219625600016531 /* share_weixin@2x.png */,
+				11AB9C3D2219695400016531 /* function_collection@2x.png */,
+				11AB9C452219695500016531 /* function_collection@3x.png */,
+				11AB9C3F2219695400016531 /* function_copy@2x.png */,
+				11AB9C422219695400016531 /* function_copy@3x.png */,
+				11AB9C412219695400016531 /* function_expose@2x.png */,
+				11AB9C432219695400016531 /* function_expose@3x.png */,
+				11AB9C482219695500016531 /* function_font@2x.png */,
+				11AB9C442219695400016531 /* function_font@3x.png */,
+				11AB9C472219695500016531 /* function_link@2x.png */,
+				11AB9C402219695400016531 /* function_link@3x.png */,
+				11AB9C462219695500016531 /* function_refresh@2x.png */,
+				11AB9C3E2219695400016531 /* function_refresh@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11246FCF22193E63004596F7 /* GPShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11246FFC22193E63004596F7 /* Build configuration list for PBXNativeTarget "GPShare" */;
+			buildPhases = (
+				11246FCC22193E63004596F7 /* Sources */,
+				11246FCD22193E63004596F7 /* Frameworks */,
+				11246FCE22193E63004596F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPShare;
+			productName = GPShare;
+			productReference = 11246FD022193E63004596F7 /* GPShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11246FE722193E63004596F7 /* GPShareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11246FFF22193E63004596F7 /* Build configuration list for PBXNativeTarget "GPShareTests" */;
+			buildPhases = (
+				11246FE422193E63004596F7 /* Sources */,
+				11246FE522193E63004596F7 /* Frameworks */,
+				11246FE622193E63004596F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11246FEA22193E63004596F7 /* PBXTargetDependency */,
+			);
+			name = GPShareTests;
+			productName = GPShareTests;
+			productReference = 11246FE822193E63004596F7 /* GPShareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11246FF222193E63004596F7 /* GPShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1124700222193E63004596F7 /* Build configuration list for PBXNativeTarget "GPShareUITests" */;
+			buildPhases = (
+				11246FEF22193E63004596F7 /* Sources */,
+				11246FF022193E63004596F7 /* Frameworks */,
+				11246FF122193E63004596F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11246FF522193E63004596F7 /* PBXTargetDependency */,
+			);
+			name = GPShareUITests;
+			productName = GPShareUITests;
+			productReference = 11246FF322193E63004596F7 /* GPShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11246FC822193E63004596F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Gorpeln;
+				TargetAttributes = {
+					11246FCF22193E63004596F7 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					11246FE722193E63004596F7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 11246FCF22193E63004596F7;
+					};
+					11246FF222193E63004596F7 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 11246FCF22193E63004596F7;
+					};
+				};
+			};
+			buildConfigurationList = 11246FCB22193E63004596F7 /* Build configuration list for PBXProject "GPShare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11246FC722193E63004596F7;
+			productRefGroup = 11246FD122193E63004596F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11246FCF22193E63004596F7 /* GPShare */,
+				11246FE722193E63004596F7 /* GPShareTests */,
+				11246FF222193E63004596F7 /* GPShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11246FCE22193E63004596F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11AB9C122219625600016531 /* share_qq@2x.png in Resources */,
+				11AB9C4E2219695500016531 /* function_copy@3x.png in Resources */,
+				11AB9C162219625600016531 /* share_safari@3x.png in Resources */,
+				11AB9C502219695500016531 /* function_font@3x.png in Resources */,
+				11AB9C532219695500016531 /* function_link@2x.png in Resources */,
+				11AB9C522219695500016531 /* function_refresh@2x.png in Resources */,
+				11246FE022193E63004596F7 /* LaunchScreen.storyboard in Resources */,
+				11AB9C4C2219695500016531 /* function_link@3x.png in Resources */,
+				11246FDD22193E63004596F7 /* Assets.xcassets in Resources */,
+				11AB9C112219625600016531 /* share_weixin@2x.png in Resources */,
+				11AB9C4D2219695500016531 /* function_expose@2x.png in Resources */,
+				11AB9C152219625600016531 /* share_weixin.png in Resources */,
+				11246FDB22193E63004596F7 /* Main.storyboard in Resources */,
+				11AB9C102219625600016531 /* share_alipay@3x.png in Resources */,
+				11AB9C1A2219625600016531 /* share_safari@2x.png in Resources */,
+				11AB9C512219695500016531 /* function_collection@3x.png in Resources */,
+				11AB9C172219625600016531 /* share_alipay@2x.png in Resources */,
+				11AB9C1B2219625600016531 /* share_sms@2x.png in Resources */,
+				11AB9C0F2219625600016531 /* share_email@2x.png in Resources */,
+				11AB9C192219625600016531 /* share_sina@3x.png in Resources */,
+				11AB9C132219625600016531 /* share_qq@3x.png in Resources */,
+				11AB9C542219695500016531 /* function_font@2x.png in Resources */,
+				11AB9C142219625600016531 /* share_email@3x.png in Resources */,
+				11AB9C0E2219625600016531 /* share_sms@3x.png in Resources */,
+				11AB9C492219695500016531 /* function_collection@2x.png in Resources */,
+				11AB9C4B2219695500016531 /* function_copy@2x.png in Resources */,
+				11AB9C4F2219695500016531 /* function_expose@3x.png in Resources */,
+				74CE1FFA221BADCF00FCD589 /* share_moments@3x.png in Resources */,
+				11AB9C4A2219695500016531 /* function_refresh@3x.png in Resources */,
+				11AB9C182219625600016531 /* share_sina@2x.png in Resources */,
+				74CE1FFB221BADCF00FCD589 /* share_moments@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11246FE622193E63004596F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11246FF122193E63004596F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11246FCC22193E63004596F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11246FD822193E63004596F7 /* ViewController.m in Sources */,
+				11AB9C1E221962A000016531 /* GPShareItem.m in Sources */,
+				11246FE322193E63004596F7 /* main.m in Sources */,
+				11AB9C242219655500016531 /* GPShareView.m in Sources */,
+				11246FD522193E63004596F7 /* AppDelegate.m in Sources */,
+				11AB9C212219644A00016531 /* GPShareItemCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11246FE422193E63004596F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11246FED22193E63004596F7 /* GPShareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11246FEF22193E63004596F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11246FF822193E63004596F7 /* GPShareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11246FEA22193E63004596F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11246FCF22193E63004596F7 /* GPShare */;
+			targetProxy = 11246FE922193E63004596F7 /* PBXContainerItemProxy */;
+		};
+		11246FF522193E63004596F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11246FCF22193E63004596F7 /* GPShare */;
+			targetProxy = 11246FF422193E63004596F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11246FD922193E63004596F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11246FDA22193E63004596F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11246FDE22193E63004596F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11246FDF22193E63004596F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11246FFA22193E63004596F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11246FFB22193E63004596F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11246FFD22193E63004596F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MK5S27Q3B;
+				INFOPLIST_FILE = GPShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chen.GPShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11246FFE22193E63004596F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8MK5S27Q3B;
+				INFOPLIST_FILE = GPShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chen.GPShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1124700022193E63004596F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chen.GPShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPShare.app/GPShare";
+			};
+			name = Debug;
+		};
+		1124700122193E63004596F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPShareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chen.GPShareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPShare.app/GPShare";
+			};
+			name = Release;
+		};
+		1124700322193E63004596F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chen.GPShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPShare;
+			};
+			name = Debug;
+		};
+		1124700422193E63004596F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chen.GPShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11246FCB22193E63004596F7 /* Build configuration list for PBXProject "GPShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11246FFA22193E63004596F7 /* Debug */,
+				11246FFB22193E63004596F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11246FFC22193E63004596F7 /* Build configuration list for PBXNativeTarget "GPShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11246FFD22193E63004596F7 /* Debug */,
+				11246FFE22193E63004596F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11246FFF22193E63004596F7 /* Build configuration list for PBXNativeTarget "GPShareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1124700022193E63004596F7 /* Debug */,
+				1124700122193E63004596F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1124700222193E63004596F7 /* Build configuration list for PBXNativeTarget "GPShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1124700322193E63004596F7 /* Debug */,
+				1124700422193E63004596F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11246FC822193E63004596F7 /* Project object */;
+}
